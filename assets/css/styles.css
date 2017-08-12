@@ -1,0 +1,75 @@
+body {
+  background-color: ivory;
+  margin: 0px;
+  overflow: hidden;
+}
+
+@media (max-width: 400px) {
+  .textContainer {
+    top: 500px;
+  }
+  .textContainer h1 {
+    font-size: 5em;
+  }
+}
+
+
+
+.textContainer {
+  width: 60%;
+  background: transparent;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  top: 300px;
+}
+
+.textContainer  h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.7em;
+  margin-bottom: 0;
+}
+
+.textContainer a {
+  color: black;
+  text-decoration: none;
+  font-family: monospace;
+  font-size: 1em;
+  margin-bottom: 2px;
+  transition: 0.3s;
+}
+
+.textContainer span {
+  margin: 0 2px;
+}
+
+.textContainer li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 5px;
+  position: relative;
+  bottom: 2px;
+}
+
+.textContainer li:hover a {
+  text-decoration: underline;
+}
+
+.textContainer ul {
+  margin-top: 10px;
+  padding: 0;
+}
+
+.social i {
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+.social i:hover {
+  opacity: 1;
+}
+
+canvas {
+  width: 100vh;
+  height: 100vh;
+}
