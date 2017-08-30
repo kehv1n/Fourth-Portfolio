@@ -1,5 +1,8 @@
-console.log('cow test')
   // Based on http://www.openprocessing.org/visuals/?visualID=6910
+
+
+
+
   var Boid = function() {
     var vector = new THREE.Vector3(),
     _acceleration, _width = 500, _height = 500, _depth = 200, _goal, _neighborhoodRadius = 70,
@@ -160,9 +163,8 @@ console.log('cow test')
         }
       }
       return posSum;
-    }
-  }
-
+    };
+  };
 
 
   var SCREEN_WIDTH = window.innerWidth,

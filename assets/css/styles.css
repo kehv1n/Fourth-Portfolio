@@ -1,8 +1,20 @@
+/** {
+  margin: 0;
+  padding: 0;
+}
+*/
+
 body {
   background-color: ivory;
   margin: 0px;
   overflow: hidden;
 }
+
+@font-face {
+    font-family: HighTide;
+    src: url(highTideD.ttf);
+}
+
 
 @media (max-width: 400px) {
   .textContainer {
@@ -25,9 +37,10 @@ body {
 }
 
 .textContainer  h1 {
-  font-family: 'Playfair Display', serif;
+  font-family: HighTide;
   font-size: 2.7em;
-  margin-bottom: 0;
+  margin: 10px;
+  padding: 10px;
 }
 
 .textContainer a {
@@ -38,6 +51,8 @@ body {
   margin-bottom: 2px;
   transition: 0.3s;
 }
+
+
 
 .textContainer span {
   margin: 0 2px;
