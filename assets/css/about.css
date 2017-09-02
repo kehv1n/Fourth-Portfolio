@@ -23,7 +23,19 @@
 
 }
 
-.content {
-  height: inherit;
-  border: 3px solid black;
+.border-outside {
+  border: 2px solid black;
+  padding: 1px;
+}
+
+.border-inside {
+  height: -webkit-fill-available;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.border-inside img {
+  float: left;
+  width: 200px;
+  margin-right: 10px;
 }
