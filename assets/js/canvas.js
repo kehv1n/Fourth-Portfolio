@@ -181,7 +181,7 @@
     camera = new THREE.PerspectiveCamera( 75, SCREEN_WIDTH / SCREEN_HEIGHT, 1, 10000 );
 
     // how close the birds appear to be
-    camera.position.z = 500;
+    camera.position.z = 450;
     scene = new THREE.Scene();
     birds = [];
     boids = [];
@@ -201,7 +201,7 @@
     }
     renderer = new THREE.CanvasRenderer();
     //sets color of the background of the canvas
-    renderer.setClearColor( 0xfffff0);
+    renderer.setClearColor( 0xdffffe);
 
     renderer.setPixelRatio( window.devicePixelRatio );
     renderer.setSize( SCREEN_WIDTH, SCREEN_HEIGHT );
