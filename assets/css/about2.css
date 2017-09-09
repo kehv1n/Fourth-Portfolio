@@ -18,10 +18,11 @@ body {
     src: url(highTideD.ttf);
 }
 
-nav h1 {
-  margin: .7em 0;
+#main {
+  margin: .6em 0;
   font-family: HighTide;
   font-size: 2.7em;
+  display: inline-block;
 }
 nav h3 {
   margin: .7em 0;
@@ -53,7 +54,7 @@ nav span {
 .grid-layout {
   max-width: 55em;
   margin: 0 auto;
-  background-color: blue;
+  /*background-color: blue;*/
   padding: 1.8em 0;
 }
 
@@ -80,5 +81,7 @@ nav span {
 }
 
 .grid-layout h1 {
-  
+  font-family: monospace;
+  font-size: 1em;
+  background-color: #dffffe
 }
