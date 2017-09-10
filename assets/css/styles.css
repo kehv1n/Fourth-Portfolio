@@ -68,6 +68,7 @@ body {
 
 .textContainer li:hover a {
   text-decoration: underline;
+
 }
 
 .textContainer ul {
@@ -77,11 +78,12 @@ body {
 
 .social i {
   opacity: 0.5;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 .social i:hover {
   opacity: 1;
+  color: #ffdfe0;
 }
 
 canvas {

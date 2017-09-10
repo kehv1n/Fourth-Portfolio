@@ -3,12 +3,12 @@
   padding: 0;
 }
 body {
-  background-color: #dffffe;
+  background-color: #ffdfe0;
 }
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  background-color: #dffffe;
+  background-color: #ffdfe0;
   text-align: center;
   padding: 50px 20px;
 }
@@ -23,9 +23,11 @@ body {
   font-family: HighTide;
   font-size: 2.7em;
   display: inline-block;
+  text-decoration: none;
 }
 nav h3 {
   margin: .7em 0;
+  font-size: 0.7m
   font-family: Roboto;
   text-transform: uppercase;
   font-weight: normal;
@@ -40,6 +42,10 @@ nav a {
   transition: 0.3s;
 }
 
+nav a:hover {
+  text-decoration: underline;
+}
+
 nav li {
   display: inline-block;
   margin: 0 .5em;
@@ -52,7 +58,7 @@ nav span {
 }
 
 .grid-layout {
-  max-width: 55em;
+  max-width: 64em;
   margin: 0 auto;
   /*background-color: blue;*/
   padding: 1.8em 0;
@@ -60,16 +66,20 @@ nav span {
 
 .grid-layout li {
   display: inline-block;
-  width: 10em;
-  height: 10em;
-  background-color: darkslategrey;
+  margin: 5px;
+
 }
 
 .grid-layout img {
-  width: 10em;
-  height: 10em;
+  width: 20em;
+  height: 20em;
   transition: 0.3s;
+  /*display: block;*/
 
+}
+
+.grid-layout a {
+  display: block;
 }
 
 .grid-layout a:hover img {
@@ -78,10 +88,4 @@ nav span {
 
 .grid-info li {
   display: inline;
-}
-
-.grid-layout h1 {
-  font-family: monospace;
-  font-size: 1em;
-  background-color: #dffffe
 }
