@@ -29,7 +29,7 @@ nav h3 {
   margin: .7em 0;
   font-size: 0.7m
   font-family: Roboto;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-weight: normal;
 }
 
@@ -86,6 +86,35 @@ nav span {
   opacity: 0.5;
 }
 
+
 .grid-info li {
   display: inline;
+}
+
+.description {
+display: none;
+position: absolute;
+text-align: left;
+margin-top: 16em;
+padding: 5px;
+
+}
+
+
+.description h3 {
+  font-family: monospace;
+  font-size: 1.5em;
+  color: black;
+
+}
+
+.description p {
+  font-family: monospace;
+  font-size: 1em;
+  color: black;
+}
+
+.box:hover .description {
+  display: inline-block;
+
 }
