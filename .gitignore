@@ -1,0 +1,3 @@
+#Files that we do not want to commit 
+
+node_modules
