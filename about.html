@@ -1,58 +1,28 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-  <meta charset="utf-8">
-  <title>About.me</title>
-  <link rel="stylesheet" href="./assets/css/about.css">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700,900" rel="stylesheet">
-</head>
-
-<body>
-  <section class="corset">
-    <div class="content-container">
-      <div class="border-outside">
-        <div class="border-inside">
-          <img src="./assets/pics/me.jpg" alt="kevin.me">
-          <h1>ABOUT</h1>
-          <div id="vertDivide"></div>
-          <div class="rightContainer">
-            <ul class="infoCard">
-              <li>
-                <p>Kevin Da Silva</p>
-                <span class="seperator"></span>
-                <code>NAME</code>
-              </li>
-              <li>
-                <p>Miami, FL</p>
-                <span class="seperator"></span>
-                <code>LOCATION</code>
-              </li>
-              <li>
-                <p>06 - 14 - 1996</p>
-                <span class="seperator"></span>
-                <code>DATE OF BIRTH</code>
-              </li>
-              <li>
-                <p>08 - 05 - 2017</p>
-                <span class="seperator"></span>
-                <code>LAST UPDATED</code>
-              </li>
-            </ul>
-            <h3> Hello! </h3>
-            <p id = "desc">My name is Kevin Da Silva and i'm a software engineer with a knack for complicated problems & puzzles.
-              I spend most of my time either exercising, writing software, or meditating. I'm currently working on software that can identify objects
-              of interest from a video stream in hopes of automating the labor of trash pickup in beaches + parks. <a href="#">Click here to find out more!</a></p>
-          </div>
-
-        </div>
-      </div>
+  <head>
+    <meta charset="utf-8">
+    <title>About Me</title>
+    <link rel="stylesheet" href="./assets/css/about.css">
+  </head>
+  <body>
+    <div class="corset">
+      <header>
+        <nav>
+          <h3 class = "animated fadeIn">My Projects</h3>
+          <a href="index.html" class = "animated fadeIn" id="main">Kevin Da Silva</a>
+          <ul>
+            <span>/</span>
+            <li><a class = "animated fadeIn" href="about.html">about</a></li><span>/</span>
+            <li><a class = "animated fadeIn" href="#">porfolio</a></li><span>/</span>
+            <li><a class = "animated fadeIn" href="#">contact</a></li><span>/</span>
+          </ul>
+        </nav>
+      </header>
     </div>
-    <div class="backButton">
-      <a href="index.html">back</a>
-    </div>
-  </section>
-
-</body>
-
+    <div id="tree-container"></div>
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="dndTree.js"></script>
+  </body>
 </html>
