@@ -62,6 +62,10 @@ nav li {
 
 nav span {
   margin: 0 2px;
+   -webkit-animation-delay: 0.8s;
+  -moz-animation-delay: 0.8s;
+  -o-animation-delay: 0.8s;
+  -ms-animation-delay: 0.8s;
 }
 
 .grid-layout {
