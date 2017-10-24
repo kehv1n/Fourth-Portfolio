@@ -2,7 +2,6 @@
   "name": "kfolio4",
   "version": "1.0.0",
   "description": "Fourth one, lets see if we don't lose interest here..",
-  "main": "dndTree.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

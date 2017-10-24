@@ -17,6 +17,10 @@ body {
     font-family: HighTide;
     src: url(highTideD.ttf);
 }
+@font-face {
+    font-family: Didot;
+    src: url(didot.ttf);
+}
 
 #main {
   margin: .6em 0;
