@@ -1,3 +1,18 @@
+@font-face{
+  font-family: Didot;
+  src: url(Didot.ttf)
+}
+@font-face{
+  font-family: DidotItalic;
+  src: url(DidotItalic.ttf)
+}
+
+@font-face {
+    font-family: HighTide;
+    src: url(highTideD.ttf);
+}
+
+
 * {
   margin: 0;
   padding: 0;
@@ -15,10 +30,6 @@ body {
 
 }
 
-@font-face {
-    font-family: HighTide;
-    src: url(highTideD.ttf);
-}
 
 #main {
   margin: .6em 0;
@@ -246,4 +257,39 @@ body {
   .onsplash-content  { 
     max-width: 50%;
     text-align: center;
+  }
+
+  .background { 
+    background-color: #009a93;
+  }
+
+  .quoteModule { 
+    height: 25em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .quoteModule h2 { 
+    font-family: DidotItalic;
+    font-size: 2.5em;
+    color: white;
+    font-weight: lighter;
+  }
+  
+  .quoteModule footer { 
+    font-family: DidotItalic;
+    color: white;
+    font-size: 1.5em;
+    text-align: right;
+  }
+
+  .seperator  { 
+      display: block;
+      width: 25em;
+      height: 1px;
+      background-color: white;
+      margin: 1em;
+      position: relative;
+      left: 19em;
   }
