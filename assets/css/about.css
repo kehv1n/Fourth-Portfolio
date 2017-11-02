@@ -281,6 +281,14 @@ body {
     font-size: 2.5em;
     color: white;
     font-weight: lighter;
+   
+  }
+
+  .quoteModule h2 , footer, .seperator { 
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    -o-animation-delay: 1s;
+    -ms-animation-delay: 1s;
   }
   
   .quoteModule footer { 
@@ -288,6 +296,7 @@ body {
     color: white;
     font-size: 1.5em;
     text-align: right;
+    
   }
 
   .seperator  { 
