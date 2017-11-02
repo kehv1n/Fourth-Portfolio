@@ -261,6 +261,10 @@ body {
 
   .background { 
     background-color: #009a93;
+    /* background-image: url(quotes.png); */
+    /* background-position: center center; */
+    /* background-size: contain; */
+    /* transform:skewX(170deg); */
   }
 
   .quoteModule { 
@@ -293,3 +297,53 @@ body {
       position: relative;
       left: 19em;
   }
+
+  #me { 
+    max-width: 25em;
+    float: left;
+    margin: 1em;
+    margin-right: 5em;
+  }
+
+  .midContent p  { 
+    font-family: monospace;
+    font-size: 13px;
+
+  }
+
+  .midContent > p { 
+    margin-bottom: 1em;
+  }
+
+  .midContent h1 { 
+    margin-bottom: 1em;
+    font-family: Hightide;
+    word-spacing: 0.3em;
+
+  }
+
+  .interests img { 
+    max-width: 2.5em;
+  }
+
+  .interests span { 
+    display: inline-block;
+    padding: 5px;
+    background-color: #569992;
+    border-radius: 100%;
+  }
+
+  #timelineTitle { 
+    font-family: Hightide;
+    margin-top: 1em;
+
+  }
+
+  #footer { 
+      background-color: #569992;
+      height: 15em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+  } 
