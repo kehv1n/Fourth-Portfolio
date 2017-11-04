@@ -335,23 +335,6 @@ body {
     margin-top: 1em;
   }
 
-  .interests img { 
-    max-width: 1.5em;
-    position: relative;
-    transition: 0.5s;
-  }
-
-  .interests span { 
-    display: inline-block;
-    padding: 5px;
-    background-color: #009a93;
-    border-radius: 100%;
-    transition: 0.5s;
-  }
-
-  .interests span:hover { 
-    background-color: #006965;
-  }
 
  
 
@@ -366,7 +349,7 @@ body {
       justify-content: center;
       align-items: center;
       text-align: center;
-      background-color: #009a93;
+      background-color: #009a93
   } 
 
   .footerContent h1 { 
@@ -393,4 +376,9 @@ body {
   font-size: 12px;
   color: darkslategrey;
   margin-top: 2em;
+}
+
+#waves  > img { 
+  max-width: 50px;
+  margin-bottom: 1em;
 }
