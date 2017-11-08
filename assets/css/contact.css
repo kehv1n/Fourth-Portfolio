@@ -196,3 +196,18 @@ nav span {
   vertical-align: middle;
 }
 
+#home { 
+    display: block;
+    font-family: monospace;
+    color: black;
+    text-decoration: none;
+    animation: 2s;
+}
+
+#home:hover { 
+    text-decoration: underline;
+}
+
+
+
+
