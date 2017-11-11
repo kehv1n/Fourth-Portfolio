@@ -25,6 +25,7 @@ body {
   margin: 0 auto;
   /* background-color: #ffdfe0; */
   text-align: center;
+  padding-top: 0;
   padding: 50px;
   padding-bottom: 2em;
 
@@ -325,6 +326,13 @@ body {
 
   }
 
+  .midSection { 
+    height: 50em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .midContent > p { 
     margin-bottom: 1em;
   }
@@ -385,6 +393,10 @@ body {
   max-width: 50px;
   margin-bottom: 1em;
 }
+
+/* .timeline { 
+  background-color: red;
+} */
 
 /* Coffee @ Footer Stuff */
 
@@ -480,3 +492,12 @@ body {
     transform: rotate(2deg);
   }
 }
+
+
+/* skills section */
+.skillsSection { 
+  background-color: blue;
+  height: 50em;
+  /* margin-top: 10em; */
+};
+/* end of skills section */
