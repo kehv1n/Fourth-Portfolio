@@ -495,9 +495,38 @@ body {
 
 
 /* skills section */
+
 .skillsSection { 
   background-color: blue;
   height: 50em;
-  /* margin-top: 10em; */
 };
+
+/* stats shit */
+
+circle-graph p {
+	text-align: center;
+  padding: 10px;
+  z-index: 100;
+} 
+
+.graph-one {
+  height: 300px; /* set height for postioning */
+}
+
+circle-graph-container {
+  position: relative;
+}
+
+canvas {
+  position: absolute;
+  top: 120px;
+}
+
+.circle-graph {
+	margin: 20px;
+  float: left;
+}
+
+
+/* end of stats section shit */
 /* end of skills section */
