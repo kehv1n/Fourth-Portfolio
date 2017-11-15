@@ -135,7 +135,13 @@ nav span {
 .social-btns .btn.github .fa {
   color: #c9510c;
 }
-.social-btns .btn.dribbble:before {
+.social-btns .btn.envelope-open:before {
+  background-color: #bbb;
+}
+.social-btns .btn.envelope-open .fa {
+  color: #bbb;
+}
+/* .social-btns .btn.dribbble:before {
   background-color: #f26798;
 }
 .social-btns .btn.dribbble .fa {
@@ -146,7 +152,7 @@ nav span {
 }
 .social-btns .btn.skype .fa {
   color: #00aff0;
-}
+} */
 .social-btns .btn:focus:before,
 .social-btns .btn:hover:before {
   top: -10%;
