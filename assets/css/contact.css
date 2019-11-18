@@ -72,29 +72,29 @@ nav span {
   -ms-animation-delay: 0.8s;
 }
 
-/* Header Ends Here */ 
+/* Header Ends Here */
 
-.corset { 
+.corset {
     padding: 5em;
 }
 
-.corset h1 { 
+.corset h1 {
     font-family: hightide;
     margin-bottom: 1em;
 }
 
-.corset p { 
+.corset p {
     max-width: 500px;
     text-align: justify;
     font-family: monospace;
 }
 
-.left , .right { 
+.left , .right {
     width: 48%;
     display: inline-block;
 }
 
-.right{ 
+.right{
     /* background-color: red; */
     height: 10em;
 }
@@ -124,10 +124,11 @@ nav span {
   color: #0077b5;
 }
 .social-btns .btn.twitter:before {
-  background-color: #3cf;
+  /* background-color: #3cf; */
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
 }
 .social-btns .btn.twitter .fa {
-  color: #3cf;
+  color: purple;
 }
 .social-btns .btn.github:before {
   background-color: #c9510c;
@@ -202,7 +203,7 @@ nav span {
   vertical-align: middle;
 }
 
-#home { 
+#home {
     display: block;
     font-family: monospace;
     color: black;
@@ -210,10 +211,6 @@ nav span {
     animation: 2s;
 }
 
-#home:hover { 
+#home:hover {
     text-decoration: underline;
 }
-
-
-
-
